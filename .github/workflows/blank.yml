@@ -27,4 +27,4 @@ jobs:
        env:
         SUPER_SECRET: ${{ secrets.BOOLEAN_FART }}
        run: |
-         echo "$SUPER_SECRET"
+         echo $SUPER_SECRET
