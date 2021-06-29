@@ -25,6 +25,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
      - shell: bash
        env:
-        SUPER_SECRET: ${{ secrets.TEST }}
+        SUPER_SECRET: ${{ secrets.BOOLEAN_FART }}
        run: |
          echo "$SUPER_SECRET"
